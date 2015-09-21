@@ -1,0 +1,19 @@
+body {
+	background-color: rgba(42,42,42,1);
+	color: rgba(255,255,255,1);
+	/*transform: scale(1.1);
+	transform-origin: 10% 10%;*/
+}
+
+#me-pic {
+ 	background-image: url('../images/test_1.png');
+ 	border-radius: 50%;
+ 	width: 500px;
+ 	height:500px;
+}
+
+#me-pic:hover {
+	background-image: url('../images/test_2.png');
+	border-radius: 50%;
+	transition: background-image 1.5s ease-in-out;
+}
