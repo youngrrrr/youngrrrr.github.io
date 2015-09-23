@@ -19,10 +19,5 @@ body {
 }
 
 a {
-	color: rgb(255,255,255);
-	/*font-weight: bold;*/
-}
-
-a:hover {
-	text-decoration: none;
+	color: rgb(150,150,150);
 }
