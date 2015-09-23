@@ -15,7 +15,10 @@ body {
 #me-pic:hover {
 	background-image: url('../images/test_2.png');
 	border-radius: 50%;
-	transition: background-image 1.5s ease-in-out;
+	-webkit-transition: background-image 1.5s ease-in-out;
+    -moz-transition: background-image 1.5s ease-in-out;
+    -o-transition: background-image 1.5s ease-in-out;
+    transition: background-image 1.5s ease-in-out;
 }
 
 a {
