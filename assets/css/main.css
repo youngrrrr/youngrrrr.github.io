@@ -21,3 +21,7 @@ body {
 a {
 	color: rgb(150,150,150);
 }
+
+a:hover {
+	text-decoration: none;
+}
