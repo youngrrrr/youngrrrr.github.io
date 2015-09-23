@@ -17,3 +17,12 @@ body {
 	border-radius: 50%;
 	transition: background-image 1.5s ease-in-out;
 }
+
+a {
+	color: rgb(255,255,255);
+	/*font-weight: bold;*/
+}
+
+a:hover {
+	text-decoration: none;
+}
