@@ -10,15 +10,15 @@ body {
  	border-radius: 50%;
  	width:500px;
  	height:500px;
+ 	-webkit-transition: background-image 1.5s ease-in-out;
+    -moz-transition: background-image 1.5s ease-in-out;
+    -o-transition: background-image 1.5s ease-in-out;
+    transition: background-image 1.5s ease-in-out;
 }
 
 #me-pic:hover {
 	background-image: url('../images/me2.png');
 	border-radius: 50%;
-	-webkit-transition: background-image 1.5s ease-in-out;
-    -moz-transition: background-image 1.5s ease-in-out;
-    -o-transition: background-image 1.5s ease-in-out;
-    transition: background-image 1.5s ease-in-out;
 }
 
 a {
