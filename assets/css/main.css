@@ -15,10 +15,6 @@ a:hover {
 	text-decoration: none;
 }
 
-p {
-	text-align: center;
-}
-
 #me-pic {
 	display: block;
 	margin: auto;
@@ -35,4 +31,9 @@ p {
 #me-pic:hover {
 	background-image: url('../images/me2_400.png');
 	border-radius: 50%;
+}
+
+.content {
+	margin: auto;
+	text-align: center;
 }
