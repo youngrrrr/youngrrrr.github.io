@@ -15,6 +15,10 @@ a:hover {
 	text-decoration: none;
 }
 
+p {
+	text-align: center;
+}
+
 #me-pic {
 	display: block;
 	margin: auto;
@@ -22,8 +26,8 @@ a:hover {
 	border-radius: 50%;
 	width:400px;
 	height:400px;
-	-webkit-transition: background-image 1.5s ease-in-out;
 	-moz-transition: background-image 1.5s ease-in-out;
+	-webkit-transition: background-image 1.5s ease-in-out;
 	-o-transition: background-image 1.5s ease-in-out;
 	transition: background-image 1.5s ease-in-out;
 }
