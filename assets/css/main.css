@@ -1,24 +1,10 @@
+html {
+	text-align: center;
+}
+
 body {
 	background-color: rgba(42,42,42,1);
 	color: rgba(255,255,255,1);
-	/*transform: scale(1.1);
-	transform-origin: 10% 10%;*/
-}
-
-#me-pic {
- 	background-image: url('../images/me1.png');
- 	border-radius: 50%;
- 	width:500px;
- 	height:500px;
- 	-webkit-transition: background-image 1.5s ease-in-out;
-    -moz-transition: background-image 1.5s ease-in-out;
-    -o-transition: background-image 1.5s ease-in-out;
-    transition: background-image 1.5s ease-in-out;
-}
-
-#me-pic:hover {
-	background-image: url('../images/me2.png');
-	border-radius: 50%;
 }
 
 a {
@@ -27,4 +13,22 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+#me-pic {
+	display: block;
+	margin: auto;
+	background-image: url('../images/me1_400.png');
+	border-radius: 50%;
+	width:400px;
+	height:400px;
+	-webkit-transition: background-image 1.5s ease-in-out;
+	-moz-transition: background-image 1.5s ease-in-out;
+	-o-transition: background-image 1.5s ease-in-out;
+	transition: background-image 1.5s ease-in-out;
+}
+
+#me-pic:hover {
+	background-image: url('../images/me2_400.png');
+	border-radius: 50%;
 }
