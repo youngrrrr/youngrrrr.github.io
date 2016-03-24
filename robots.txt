@@ -1,1 +1,3 @@
+User-agent: *
 Disallow: /assets/docs/Resume.pdf
+Disallow: *.pdf
